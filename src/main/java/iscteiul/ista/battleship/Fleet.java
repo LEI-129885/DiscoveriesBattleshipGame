@@ -1,3 +1,8 @@
+package iscteiul.ista.battleship;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Implementação da interface {@link IFleet} que gere o conjunto de navios
  * pertencentes a um jogador no jogo Batalha Naval.
@@ -6,10 +11,6 @@
  * @author ISCTE-IUL
  * @version 1.0
  */
-package iscteiul.ista.battleship;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Fleet implements IFleet {
 
