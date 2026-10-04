@@ -4,6 +4,10 @@
 package iscteiul.ista.battleship;
 
 /**
+ * Represents the possible compass directions used to determine the bearing of ships in the Battleship game.
+ *
+ * <p>The compass supports the four cardinal directions: north, south, east, and west. The {@link #UNKNOWN} value represents an invalid or unrecognized direction.</p>
+ *
  * @author fba
  */
 public enum Compass {

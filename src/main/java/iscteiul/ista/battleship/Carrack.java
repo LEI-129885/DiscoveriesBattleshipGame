@@ -36,11 +36,6 @@ public class Carrack extends Ship {
         }
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.Ship#getSize()
-     */
     /**
      * Returns the size of the carrack.
      *

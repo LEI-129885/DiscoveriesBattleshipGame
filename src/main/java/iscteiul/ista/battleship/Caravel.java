@@ -13,6 +13,8 @@ public class Caravel extends Ship {
     private static final String NAME = "Caravela";
 
     /**
+     * Creates a new caravel with the specified bearing and initial position.
+     *
      * @param bearing the bearing where the Caravel heads to
      * @param pos     initial point for positioning the Caravel
      */
@@ -39,11 +41,6 @@ public class Caravel extends Ship {
 
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.Ship#getSize()
-     */
     /**
      * Returns the size of the caravel.
      *

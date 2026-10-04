@@ -13,6 +13,8 @@ public class Barge extends Ship {
     private static final String NAME = "Barca";
 
     /**
+     * Creates a new barge with the specified bearing and initial position.
+     *
      * @param bearing - barge bearing
      * @param pos     - upper left position of the barge
      */
