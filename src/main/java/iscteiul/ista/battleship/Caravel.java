@@ -3,11 +3,18 @@
  */
 package iscteiul.ista.battleship;
 
+/**
+ * Represents a caravel ship in the Battleship game.
+ *
+ * <p>A caravel occupies two positions on the game board. Its positions depend on its bearing.</p>
+ */
 public class Caravel extends Ship {
     private static final Integer SIZE = 2;
     private static final String NAME = "Caravela";
 
     /**
+     * Creates a new caravel with the specified bearing and initial position.
+     *
      * @param bearing the bearing where the Caravel heads to
      * @param pos     initial point for positioning the Caravel
      */
@@ -34,10 +41,10 @@ public class Caravel extends Ship {
 
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Returns the size of the caravel.
      *
-     * @see battleship.Ship#getSize()
+     * @return the size of the caravel, which is 2
      */
     @Override
     public Integer getSize() {
