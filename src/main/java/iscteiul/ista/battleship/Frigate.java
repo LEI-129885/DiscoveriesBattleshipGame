@@ -1,29 +1,28 @@
 package iscteiul.ista.battleship;
 
 /**
- * Representa uma Fragata na Batalha Naval (correspondente ao navio de 4 canhões),
- * com uma dimensão fixa de 4 quadrados.
- * Estende a classe abstrata {@link Ship}.
+ * Represents a Frigate in the Battleship game (corresponding to the 4-cannon ship),
+ * with a fixed size of 4 squares.
+ * Extends the abstract class {@link Ship}.
  *
  * @author ISCTE-IUL
  * @version 1.0
  */
-
 public class Frigate extends Ship {
-    /** Dimensão fixa da Fragata (4 posições). */
+    /** Fixed size of the Frigate (4 positions). */
     private static final Integer SIZE = 4;
-
-    /** Designação textual padrão do tipo de navio. */
+    
+    /** Standard textual designation for the ship type. */
     private static final String NAME = "Fragata";
 
     /**
-     * Constrói uma nova Fragata com base na orientação (bearing) e na posição inicial fornecidas.
-     * Calcula automaticamente as 4 posições consecutivas ocupadas no tabuleiro
-     * consoante o sentido (Norte, Sul, Este ou Oeste).
+     * Constructs a new Frigate based on the provided bearing and initial position.
+     * Automatically calculates the 4 consecutive positions occupied on the board
+     * according to the direction (North, South, East, or West).
      *
-     * @param bearing a orientação do navio (ex: {@link Compass#NORTH}, {@link Compass#EAST}, etc.).
-     * @param pos a posição inicial de referência {@link IPosition}.
-     * @throws IllegalArgumentException se a orientação fornecida for inválida ou nula.
+     * @param bearing the orientation of the ship (e.g., {@link Compass#NORTH}, {@link Compass#EAST}, etc.).
+     * @param pos the initial reference position {@link IPosition}.
+     * @throws IllegalArgumentException if the provided bearing is invalid or null.
      */
     public Frigate(Compass bearing, IPosition pos) throws IllegalArgumentException {
         super(Frigate.NAME, bearing, pos);
