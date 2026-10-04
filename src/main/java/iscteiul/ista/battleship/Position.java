@@ -1,13 +1,14 @@
+
+package iscteiul.ista.battleship;
+
+import java.util.Objects;
+
 /**
  * Represents a concrete implementation of a grid position in the Battleship game.
  * This class stores the coordinates (row and column) of a specific cell on the game board
  * and tracks its current state, including whether it is occupied by a ship and 
  * whether it has been shot at.
  */
-package iscteiul.ista.battleship;
-
-import java.util.Objects;
-
 public class Position implements IPosition {
     private int row;
     private int column;
