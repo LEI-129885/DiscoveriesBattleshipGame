@@ -1,16 +1,17 @@
+
+package iscteiul.ista.battleship;
+
+import java.util.List;
+
 /**
  * Represents a ship in the Battleship game.
  * Defines the core behaviors and properties of a ship, including its position,
  * size, orientation, and status (whether it is still floating or sunk).
  */
-package iscteiul.ista.battleship;
-
-import java.util.List;
-
 public interface IShip {
 
     /**
-     * Gets the category or type of the ship (e.g., "Carrier", "Battleship", "Submarine").
+     * Gets the category or type of the ship (e.g., "Galleon", "Frigate", "Caravel").
      * 
      * @return a String representing the category of the ship.
      */
