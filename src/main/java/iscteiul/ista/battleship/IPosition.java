@@ -1,11 +1,10 @@
+
+package iscteiul.ista.battleship;
+
 /**
  * Represents a specific coordinate or cell on the Battleship game grid.
  * Tracks the state of the position, such as whether it is occupied by a ship
  * and whether it has been shot at by the opponent.
- */
-package iscteiul.ista.battleship;
-
-/**
  * @author fba
  */
 public interface IPosition {
