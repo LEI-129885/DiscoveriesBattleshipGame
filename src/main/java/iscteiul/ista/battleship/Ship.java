@@ -1,15 +1,16 @@
-/**
- * Provides an abstract base implementation of the {@link IShip} interface for the Battleship game.
- * This class handles common state and logic for all ships, such as tracking positions,
- * determining boundaries, checking for overlap/adjacency, and handling hits.
- * Specific ship types (like Galleon, Frigate, etc.) should extend this class.
- */
+
 package iscteiul.ista.battleship;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * Provides an abstract base implementation of the {@link IShip} interface for the Battleship game.
+ * This class handles common state and logic for all ships, such as tracking positions,
+ * determining boundaries, checking for overlap/adjacency, and handling hits.
+ * Specific ship types (like Galleon, Frigate, etc.) should extend this class.
+ */
 public abstract class Ship implements IShip {
 
     private static final String GALEAO = "galeao";
