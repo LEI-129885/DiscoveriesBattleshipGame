@@ -1,12 +1,13 @@
+package iscteiul.ista.battleship;
+
 /**
  * Representa uma Fragata na Batalha Naval (correspondente ao navio de 4 canhões),
- * com uma dimensão fixa de 4 quadrados[cite: 2, 5].
+ * com uma dimensão fixa de 4 quadrados.
  * Estende a classe abstrata {@link Ship}.
  *
  * @author ISCTE-IUL
  * @version 1.0
  */
-package iscteiul.ista.battleship;
 
 public class Frigate extends Ship {
     /** Dimensão fixa da Fragata (4 posições). */
