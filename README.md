@@ -2,8 +2,14 @@
 
 Basic academic version of Battleship game to build upon.
 
+---
 
-GrupoTP06_LEI-5
+## Documentation
+[View the JavaDoc](https://lei-129885.github.io/DiscoveriesBattleshipGame/)
+
+---
+
+## GrupoTP06_LEI-5
 
 | Curso         | Nome             | Número |
 | ------------- |:----------------:| ------:|
@@ -43,6 +49,8 @@ os tiros na água
 tiros, identificando os navios afundados
 * Ganha o jogo o primeiro que atingir todos os navios
 da frota adversária
+
+---
 
 # Navios
 - Galeão
